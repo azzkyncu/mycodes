@@ -1,1 +1,15 @@
-https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=2s
+https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=2
+
+Example 1: finding a maximum number in a list 
+numbers = [2, 28, 9, 5, 13, ]
+max_num = numbers[0]
+
+for x in numbers:
+    if max_num < x:
+        max_num = x
+print(max_num)
+
+print(nubers.max)
+
+# or easy way to find is max(list).... 
+max(numbers)
