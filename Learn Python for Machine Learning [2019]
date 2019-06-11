@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=2
-
+-------------------------------------------------------
 Example 1: finding a maximum number in a list 
 numbers = [2, 28, 9, 5, 13, ]
 max_num = numbers[0]
@@ -13,3 +13,97 @@ print(nubers.max)
 
 # or easy way to find is max(list).... 
 max(numbers)
+--------------------------------------------------------
+matrix = [1,2,3
+          4,5,6
+          7,8,9]
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+ print(matrix[0][1])
+ 
+ -------------------------------------------------------
+ # get rid of repeated numbers in a list or array 
+ 
+ listem = [3, 3, 4, 4, 5, 5, 5, 6, 7, 8, 6, 7, 8, 9]
+ s = []
+for x in listem:
+    if x not in s:
+        s.append(x)
+print(s)
+ s = [3, 4, 5, 6, 7, 8, 9]
+ ---------------------------------------------------------
+ my_dict = {'name': ["Aziz", "Sinem", "Sebnem", "Bulut"], 'Age': [33, 8, 5, 1]}
+
+my_dict['name'] = ["Aziz", "Sinem", 'Sebnem', "Ozlem"]
+
+my_dict['age'] =  [33, 8, 5, 25]
+
+print(my_dict)
+
+print(my_dict['age'])
+
+my_dict.update({'eye_color': ["Black", "Blue", "Gray", "white"]})
+
+print(my_dict)
+
+print(my_dict.get('name'))
+
+--------------------------------------------------------------
+def test():
+    print("I love you")
+    print("Do you also love  me")
+
+test()
+print("Nevermind")
+--------------------------------------------------------------
+def great_user(name):
+    name = "John"
+    print(f'Hi {name}')
+    print('Welcome abroad')
+
+print("Start")
+great_user("John")
+print("Good byeee")
+
+---------------------------------------------------------------
+def great_user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}')
+    print('Welcome abroad')
+
+print("Start")
+great_user("Aziz", "Koyuncu")
+print("Good byeee")
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
