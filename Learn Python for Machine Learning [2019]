@@ -76,6 +76,18 @@ great_user("Aziz", "Koyuncu")
 print("Good byeee")
 
 ---------------------------------------------------------------
+our_slogan = "We all can do it"
+
+print(f'I want to say our slogan {our_slogan}!')
+# 
+def my_function(country = "Norway"):
+  print(f"I am from  {country}")
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+--------------------------------------------------------------
 
 
 
